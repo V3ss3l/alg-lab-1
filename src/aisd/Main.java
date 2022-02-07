@@ -6,17 +6,17 @@ public class Main {
     public static Random rand;
 
     public static void main(String[] args) {
-        arr = new int[10];
+        arr = new int[5000];
         rand = new Random();
+        long begin = System.nanoTime();
         for (int i = 0; i < arr.length; i++){
             arr[i] = rand.nextInt(100);
         }
         System.out.println(getMidAriphOfArr(arr));
-        System.out.println(getTimeOfWork());
+        System.out.println(getTimeOfWork(begin));
     }
 
-    public static long getTimeOfWork(){
-        long begin = System.nanoTime();
+    public static long getTimeOfWork(long begin){
         long finish = System.nanoTime();
         timeOfWork = finish - begin;
         return timeOfWork;
