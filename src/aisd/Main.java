@@ -8,11 +8,11 @@ public class Main {
     public static Random rand;
 
     public static void main(String[] args) {
-        var n = 5000;
+        var n = 20;
         for (int i = 0; i < 5; i++) {
             mainWork(n);
             System.out.println('\n');
-            n+=1000;
+            n = n + 20;
         }
     }
 
