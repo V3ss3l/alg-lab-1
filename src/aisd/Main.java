@@ -24,11 +24,10 @@ public class Main {
 
     public static double getMidAriphOfArr(int[] arr) {
         var sum = 0;
-        var midAriph = 0;
         for (var i : arr) {
             sum += i;
         }
-        return midAriph = sum / arr.length;
+        return sum / arr.length;
     }
 
     public static void mainWork(int n) {
