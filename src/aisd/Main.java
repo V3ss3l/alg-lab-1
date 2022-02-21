@@ -16,7 +16,7 @@ public class Main {
         }
         System.out.println(getMidAriphOfArr(arr));
         System.out.println(timeOfWork);
-        System.out.println('\n');`
+        System.out.println('\n');
     }
 
     public static void getTimeOfWork(long begin, long finish) {
